@@ -73,7 +73,7 @@ public class CovidFasilitasKesehatanAdapter extends RecyclerView.Adapter<CovidFa
             tvNama = itemView.findViewById(R.id.itemlist_faskes_nama);
             tvAlamat =itemView.findViewById(R.id.itemlist_faskes_alamat);
             btnMaps = itemView.findViewById(R.id.itemlist_faskes_btnMaps);
-            btnMaps.setBackgroundColor(Color.rgb(255,168gi,1));
+            btnMaps.setBackgroundColor(Color.rgb(255,176,1));
         }
     }
 }
