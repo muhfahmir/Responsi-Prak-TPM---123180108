@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/itemlist_harian_cv"
+    >
+
+    <LinearLayout
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2021-25-26"
+            android:id="@+id/itemlist_harian_tv_tanggal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/itemlist_harian_tv_konfirmasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terkonfirmasi     2502 kasus"
+                />
+            <TextView
+                android:id="@+id/itemlist_harian_tv_sembuh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sembuh     1260"
+                />
+            <TextView
+                android:id="@+id/itemlist_harian_tv_meninggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meninggal     84 kasus"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

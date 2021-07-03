@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+    app:cardPreventCornerOverlap="false"
+    android:padding="5dp"
+    app:cardCornerRadius="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/itemlist_faskes_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RS Umum TNI AU Lanud Sulaiman"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat : "
+                android:textSize="25sp"
+                android:fontFamily="cursive"
+                />
+            <TextView
+                android:id="@+id/itemlist_faskes_alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jl. Raya Terusan Kopo Sayati Margahayu kab. Bandung Kabupaten Bandung"
+                android:textSize="25sp"
+                android:fontFamily="cursive"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/itemlist_faskes_btnMaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maps"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
